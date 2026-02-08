@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="343fdb77-b081-4a68-8da3-c193e1a7890f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Parking Lot Identification.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lot.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/occupied/otest9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/test/unoccupied/utest9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/occupied/occupied9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/unoccupied/unoccupied9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/occupied/occupiedval7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/unoccupied/unoccupiedval7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extract_frame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/label_spots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snapshot_occupancy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_occupancy_classifier.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37Nc8CYTRgn0BW6Eb8SEKHsJ1kD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.debug_eval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.detect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval_occupancy_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_frame.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_spot_crops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.final_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.label_spots.executor&quot;: &quot;Run&quot;,
+    &quot;Python.photo_occupancy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.report_misses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snapshot_occupancy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snapshot_occupancy.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_occupancy_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.video_occupancy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shauryashrivastava/PyCharmProjects/smart-parking/dataset/test/unoccupied&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/test/unoccupied" />
+      <recent name="$PROJECT_DIR$/dataset/test/occupied" />
+      <recent name="$PROJECT_DIR$/dataset/test" />
+      <recent name="$PROJECT_DIR$/dataset/val/unoccupied" />
+      <recent name="$PROJECT_DIR$/dataset/val/occupied" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/test/occupied" />
+      <recent name="$PROJECT_DIR$/dataset/train/occupied" />
+      <recent name="$PROJECT_DIR$/dataset/train/unoccupied" />
+      <recent name="$PROJECT_DIR$/dataset/val/unoccupied" />
+      <recent name="$PROJECT_DIR$/dataset/val/occupied" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.snapshot_occupancy">
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parking Lot Identification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="label_spots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parking Lot Identification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/label_spots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="photo_occupancy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parking Lot Identification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/photo_occupancy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="snapshot_occupancy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parking Lot Identification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snapshot_occupancy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_occupancy_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parking Lot Identification" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_occupancy_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.snapshot_occupancy" />
+        <item itemvalue="Python.photo_occupancy" />
+        <item itemvalue="Python.detect" />
+        <item itemvalue="Python.label_spots" />
+        <item itemvalue="Python.train_occupancy_classifier" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="343fdb77-b081-4a68-8da3-c193e1a7890f" name="Changes" comment="" />
+      <created>1766746808113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766746808113</updated>
+      <workItem from="1766746809115" duration="18637000" />
+      <workItem from="1767075846054" duration="90239000" />
+      <workItem from="1767452846659" duration="8122000" />
+      <workItem from="1767532763474" duration="141800000" />
+      <workItem from="1768196058034" duration="21351000" />
+      <workItem from="1768523161431" duration="266000" />
+      <workItem from="1768523552158" duration="60999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/smart_parking$label_spots.coverage" NAME="label_spots Coverage Results" MODIFIED="1767975469761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parking_Lot_Identification$detect.coverage" NAME="detect Coverage Results" MODIFIED="1768329705311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$video_occupancy.coverage" NAME="snapshot_occupancy Coverage Results" MODIFIED="1767199736618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$eval_occupancy_classifier.coverage" NAME="eval_occupancy_classifier Coverage Results" MODIFIED="1767905630461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$detect.coverage" NAME="detect Coverage Results" MODIFIED="1767688318004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$snapshot_occupancy.coverage" NAME="snapshot_occupancy Coverage Results" MODIFIED="1768322135192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parking_Lot_Identification$label_spots.coverage" NAME="label_spots Coverage Results" MODIFIED="1768329661389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$report_misses.coverage" NAME="report_misses Coverage Results" MODIFIED="1767627173177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$final_test.coverage" NAME="final_test Coverage Results" MODIFIED="1767886242803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$photo_occupancy.coverage" NAME="photo_occupancy Coverage Results" MODIFIED="1767197145414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$train_occupancy_classifier.coverage" NAME="train_occupancy_classifier Coverage Results" MODIFIED="1768227896837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parking_Lot_Identification$photo_occupancy.coverage" NAME="photo_occupancy Coverage Results" MODIFIED="1768329764215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Parking_Lot_Identification$snapshot_occupancy.coverage" NAME="snapshot_occupancy Coverage Results" MODIFIED="1769139226523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$extract_spot_crops.coverage" NAME="extract_spot_crops Coverage Results" MODIFIED="1767200354954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$debug_eval.coverage" NAME="debug_eval Coverage Results" MODIFIED="1767619433046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/smart_parking$extract_frame.coverage" NAME="extract_frame Coverage Results" MODIFIED="1767460453018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
