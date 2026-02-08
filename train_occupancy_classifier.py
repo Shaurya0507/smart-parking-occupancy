@@ -15,7 +15,7 @@ EPOCHS = 25
 LEARNING_RATE = 3e-4
 WEIGHT_DECAY = 1e-4
 IMAGE_SIZE = 224
-MODEL = "occupancy_classifier_check.pt"
+MODEL = "occupancy_classifier.pt"
 SEED = 42
 
 # This function establishes fixed random seeds to ensure consistency.
