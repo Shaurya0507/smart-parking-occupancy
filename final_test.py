@@ -10,23 +10,21 @@ FILE = "occupancy_classifier.pt"
 DEVICE = "cpu"
 IMAGE_SIZE = 224
 BATCH_SIZE = 16
-# I based these values on the average RGB color and the spread of RGB values across all ImageNet images.
+# # These values are based on the average RGB color and spread of RGB values across the ImageNet dataset.
 MEAN = [0.485, 0.456, 0.406]
 STD = [0.229, 0.224, 0.225]
 
-# Here, I transform the images to match the needed training input format.
+# Here, I transform the images to match the input format used during training.
 test_transforms = transforms.Compose([
     transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
     transforms.ToTensor(),
     transforms.Normalize(mean = MEAN, std = STD)
 ])
 
-# In this function, I build a neural network module using PyTorch.
+# # In this function, I build the same neural network architecture used during training.
 def pytorch_model() -> torch.nn.Module:
     model = models.resnet18(weights = None)
     model.fc = nn.Linear(model.fc.in_features, 2)
-
-    # This if statement makes sure here that the trained model weights file exists.
     if not os.path.exists(FILE):
         raise FileNotFoundError(f"Model weights not found in '{FILE}'.")
 
@@ -37,27 +35,25 @@ def pytorch_model() -> torch.nn.Module:
     return model
 
 def main():
-    # This if statement ensures that the test dataset exists before evaluation.
     if not os.path.exists(TEST):
         raise FileNotFoundError(f"Could not find test folder '{TEST}'. ")
 
-    # Load test dataset and map class indices back to class name.
+    # The test dataset and map class indices are loaded back to class name.
     dataset = datasets.ImageFolder(TEST, transform = test_transforms)
     if len(dataset) == 0:
         raise RuntimeError(f"No images found under '{TEST}'.")
 
-    # This performs class mapping
+    # Prepare the test data loader and class-label mappings needed for evaluation.
     print("Test class mapping:", dataset.class_to_idx)
-    # The variable maps numeric class index to the class name
     converted = {v: k for k, v in dataset.class_to_idx.items()}
     loader = DataLoader(dataset, batch_size = BATCH_SIZE, shuffle = False)
     model = pytorch_model()
-    # Here, I built a confusion matrix where rows = true labels and columns = predicted labels.
+    # Here, I build a confusion matrix where rows = true labels and columns = predicted labels.
     matrix = torch.zeros((2, 2), dtype=torch.int64)
     # This list stores per-image results, including filename, true_label, predicted_label, and confidence, for error analysis.
     results = []
 
-    # This function disables gradient tracking during evaluation.
+    # Here, the trained model is run on the test dataset to collect predictions for evaluation.
     with torch.no_grad():
         offset = 0
         for imgs, labels in loader:
@@ -68,9 +64,11 @@ def main():
             predictions = probabilities.argmax(dim = 1)
             confidence = probabilities.max(dim = 1).values
 
+            # The confusion matrix is updated here by comparing the true labels to the predicted labels.
             for t, p in zip(labels.view(-1), predictions.view(-1)):
                 matrix[t.long(), p.long()] += 1
 
+            # I record the accuracy of each image result here.
             batch_size = labels.size(0)
             for i in range(batch_size):
                 path = dataset.samples[offset + i][0]
@@ -87,11 +85,12 @@ def main():
 
             offset += batch_size
 
+    # Here, the confusion matrix is used to determine accuracy.
     total = int(matrix.sum().item())
     correct = int((matrix[0, 0] + matrix[1, 1]).item())
     accuracy = correct / max(total, 1)
 
-    # Recall Formula: TP / (TP + FN)
+    # Recall formula: TP / (TP + FN)
     recall_occupied = matrix[0, 0].item() / max((matrix[0, 0] + matrix[0, 1]).item(), 1)
     recall_unoccupied = matrix[1, 1].item() / max((matrix[1, 0] + matrix[1, 1]).item(), 1)
     balanced_acc = 0.5 * (recall_occupied + recall_unoccupied)
@@ -106,7 +105,7 @@ def main():
     print(f"[[{matrix[0,0].item()}, {matrix[0,1].item()}],")
     print(f" [{matrix[1,0].item()}, {matrix[1,1].item()}]]")
 
-    # Misses
+    # Here, I identify the misclassified images.
     misses = [r for r in results if r[1] != r[2]]
     print(f"\nMisses ({len(misses)}/{total}):")
     if len(misses) == 0:
@@ -115,6 +114,7 @@ def main():
         for fn, t, p, conf in sorted(misses, key=lambda x: x[3]):
             print(f"{fn:30s} true = {t:10s} predicted = {p:10s} confidence = {conf:.3f}")
 
+    # Additionally, the correctly classified images with the lowest confidence are identified.
     correct_rows = [r for r in results if r[1] == r[2]]
     correct_rows_sorted = sorted(correct_rows, key=lambda x: x[3])
 
