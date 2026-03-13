@@ -3,3 +3,6 @@ __pycache__/
 output/
 *.pyc
 .DS_Store
+spots.json
+spots_video.json
+.idea/
